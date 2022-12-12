@@ -5559,7 +5559,7 @@ fieldset:disabled .btn {
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: var(--black);
     background-clip: padding-box;
     border: 0;
     border-top: 10px solid transparent;
@@ -6850,6 +6850,7 @@ fieldset:disabled .btn {
     visibility: hidden !important;
 }
 @media (min-width: 576px) {
+    
     .float-sm-start {
         float: left !important;
     }
@@ -7842,6 +7843,7 @@ fieldset:disabled .btn {
     }
 }
 @media (min-width: 992px) {
+
     .float-lg-start {
         float: left !important;
     }

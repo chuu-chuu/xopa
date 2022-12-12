@@ -126,7 +126,7 @@ nav .navbar-nav .nav-link.active {
 /* Banner */
 /* Category */
 .shop-category img {
-    height: 100%;
+    height: auto;
 }
 .shop-category {
     padding-top: 70px;

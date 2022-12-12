@@ -631,18 +631,20 @@ footer .row {
     .why-choose .row .col-md-3 {
         width: 100%;
     }
-}
-@media only screen and (max-width: 320px) {
-    .shop-subscribe .btn {
-        margin-left: 0;
-        padding: 10px 15px;
-    }
     .shop-products-wrap .shop-product {
         width: 100%;
     }
     .why-choose .col-md-3:nth-child(4) .why-choose-item::after {
         content: '';
     }
+}
+@media only screen and (max-width: 320px) {
+    .shop-subscribe .btn {
+        margin-left: 0;
+        padding: 10px 15px;
+    }
+    
+    
     .main-title {
         font-size: 20px;
     }

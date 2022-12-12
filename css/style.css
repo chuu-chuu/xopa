@@ -373,6 +373,9 @@ footer a {
 .footer-socials a {
     color: var(--primary-color);
 }
+.copy-right p {
+    margin-bottom: 0;
+}
 .footer-socials a {
     background: var(--white);
     border-radius: 50%;
@@ -451,6 +454,9 @@ footer .row {
     
 }
 @media only screen and (max-width: 992px) { 
+    .copy-right p {
+        margin-bottom: 15px;
+    }
     .main-title {
         font-size: 42px;
     }
